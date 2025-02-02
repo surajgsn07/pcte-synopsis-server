@@ -19,7 +19,7 @@ const port = 3000;
 // Middleware
 app.use(cors(
     {
-        origin: 'https://pcte-synopsis-maker.netlify.app',
+        origin: '*',
     }
 ));
 app.use(express.json()); // For parsing application/json
